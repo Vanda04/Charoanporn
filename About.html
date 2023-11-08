@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <title>Roochiphan</title>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7c2e911fa9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Start HOME page -->
+
+    <!-- Start Container -->
+    <div class="container">
+        <section class="sub-header">
+            <!-- Start Nav -->
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="text-box">
+                    <h2>VANDA</h2>
+                </div>
+                <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i><!-- Icon close -->
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">PORTFOLIO</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i><!-- Icon bars -->
+            </nav>
+            <h1>ABOUT ME</h1>
+    
+        </section>
+    </div>
+<!--------------- about us content   ---------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>MY PROFILE</h1>
+            <h3>Name : Charoanporn Roochiphan <br>Nickname : Vanda <br>Age : Age 18 years</h3>
+            <p>I have a great passion and interest in <strong>Computer Science</strong> Because I have a passion for programming, software development and loves science and digital art, Including matters about Artificial Intelligence Because at present our world has entered
+                In the digital age, I would like to learn about computer science in order to further my knowledge and abilities towards a career as a software developer. This is the career that I dream of having and is a career that is needed all over the world.
+                 My personality is someone who likes to analyze likes to ask questions and find answers and if i am interested in what I want to do or what I want to learn. I will search for information Learn and practice things that interest you greatly to achieve faster learning and faster understanding and my personal personality will be someone who cares for others, likes to help, share, and likes to listen to other people's opinions to improve and fix yourself to be better.</p>
+        
+        <div class="about-skill"> 
+            <h3>CODING SKILL</h3>
+            <p>PYTHON , HTML , CSS</p>
+
+            <h3>OTHER SKILL</h3>
+            <p>DESIGN , EDIT VIDEO , DRAWING , 3D MODEL</p>
+        </div>
+
+        </div>
+        <div class="about-col">
+            <img src="images/My profile.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--------------- Footer   ---------->
+
+<section class="footer">
+    <p>This website was created only to learn coding and website development<br>It's not actually usable yet, it's just practice and experimentation.</p>
+    <p>Made by Charoanporn Roochiphan</p>
+</section>
+
+<!----- JavaScript for toggle Menu ----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>

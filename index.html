@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <title>Charoanporn</title>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7c2e911fa9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Start HOME page -->
+
+    <!-- Start Container -->
+    <div class="container">
+        <section class="header">
+            <!-- Start Nav -->
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="text-box">
+                    <h2>VANDA</h2>
+                </div>
+                <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i><!-- Icon close -->
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./About.Html.html">ABOUT</a></li>
+                        <li><a href="https://shorturl.asia/JOwVU">PORTFOLIO</a></li>
+                        <li><a href="./Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i><!-- Icon bars -->
+            </nav>
+    
+            <div class="text-box2">
+                <h1>Student : TUPP08</h1>
+                <h2>Charoanporn Roochiphan</h2>
+        <!-- Start Typing -->
+            <div class="container2">
+                <h3> <span class="auto-type"></span></h3>
+            </div>
+    
+        <script src="https://unpkg.com/typed.js@2.0.16"></script>
+    
+        <script>
+            var typed = new Typed(".auto-type", {
+            strings: ["Welcome to my website", "Thank you for visiting"],
+            typeSpeed: 125,
+            backSpeed: 20,
+            loop: true
+            })
+        </script>
+        <!-- End Typing -->
+    
+            <a href="https://www.instagram.com/vante4_rj/" class="hero-btn">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100006199098746" class="hero-btn">Facebook</a>
+        </div>
+         
+        </section>
+    <!-- End HOME page -->
+
+<!----- Start About ----->
+
+<section class="About">
+    <h1>ABOUT ME</h1>
+    <h2>Basic Experience</h2>
+    <h5>--- MY SKILLS ---</h5>
+
+    <div class="row">
+        <div class="About-col">
+            <h3>Coding Skills</h3>
+            <p>PYTHON , HTML , CSS</p>
+        </div>
+
+        <div class="About-col">
+            <h3>Other Skills</h3>
+            <p>DESIGN , EDIT VIDEO , DRAWING , 3D MODEL</p>
+        </div>
+
+    </div>
+</section>
+<!----- End About ----->
+
+<!----- Start resume ----->
+<div class="experience" id="experience">
+<section class="resume">
+    <h1>Learning Experience</h1>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-text">
+                <div class="timeline-date">2552 - 2554 </div>
+                <h2>Kindergarten : Sarasas Witaed Minburi School</h2>
+                <h4><em>Thailand</em></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-item2">
+            <div class="timeline-text">
+                <div class="timeline-date">2555 - 2560</div>
+                <h2>Elementary : Sarasas Witaed Minburi School</h2>
+                <h4><em>Thailand</em></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-text">
+                <div class="timeline-date">2561 - 2566</div>
+                <h2>High school level : <br>Triam Udom Suksa Pattanakarn Suvarnabhumi</h2>
+                <h4><em>Thailand GPA : 3.72</em></h4>
+            </div>
+            
+        </div>    
+    </div>
+
+    <div class="row">
+        <div class="resume-col">
+
+        </div>
+    </div>
+</div>
+</section>
+
+<!---------- Call to Action --------->
+
+<section class="cta">
+    <h1><strong>You can contact for more my information</strong></h1>
+    <a href="./Contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--------------- Footer   ---------->
+
+<section class="footer">
+    <p>This website was created only to learn coding and website development<br>It's not actually usable yet, it's just practice and experimentation</p>
+    <p>Made by Charoanporn Roochiphan</p>
+</section>
+
+<!----- JavaScript for toggle Menu ----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    </div>
+
+
+</body>
+</html>

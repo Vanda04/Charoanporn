@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <title>Charoanporn</title>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7c2e911fa9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Start HOME page -->
+
+    <!-- Start Container -->
+    <div class="container">
+        <section class="sub-header2">
+            <!-- Start Nav -->
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="text-box">
+                    <h2>VANDA</h2>
+                </div>
+                <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i><!-- Icon close -->
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./About.Html.html">ABOUT</a></li>
+                        <li><a href="https://shorturl.asia/JOwVU">PORTFOLIO</a></li>
+                        <li><a href="./Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i><!-- Icon bars -->
+            </nav>
+            <h1>CONTACT</h1>
+    
+        </section>
+    </div>
+<!--------------- Contact   ---------->
+
+<section>
+    <div class="Contact">
+        <form action="https://formspree.io/f/mrgwdjla" method="POST">
+            <input type="text" name = "first" placeholder="First Name" autocomplete="off" required>
+            <input type="text" name = "last" placeholder ="Last Name" autocomplete="off" required>
+            <input type="email" name = "email" placeholder="Email Address" autocomplete="off" required>
+            <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+<!--------------- Footer   ---------->
+
+<section class="footer">
+    <p>This website was created only to learn coding and website development<br>It's not actually usable yet, it's just practice and experimentation.</p>
+    <p>Made by Charoanporn Roochiphan</p>
+</section>
+
+<!----- JavaScript for toggle Menu ----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
